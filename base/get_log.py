@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+ @Description :
+ @Time        : 2021/11/11 15:24
+ @Author      : xiaowei
+"""
+
+import logging.handlers
+
+
+class GetLog:
+
+    logger = None
+
+    @classmethod
+    def get_logger(cls):
+        if cls.logger is None:
+            # 获取日志器
+            cls.logger = logging.getLogger()
+            # 设置日志器级别
+            cls.logger.setLevel(logging.DEBUG)
+            # 获取处理器 控制台
+            stream_handler = logging.StreamHandler()
+            # 获取处理器 文件-以时间分隔
+            file_handler = logging.handlers.TimedRotatingFileHandler(filename="../log/log.log",
+                                                                     when="midnight",
+                                                                     interval=1,
+                                                                     backupCount=30,
+                                                                     encoding="utf-8")
+            # 设置格式器
+            log_format = "%(asctime)s %(levelname)s [%(filename)s %(funcName)s:%(lineno)d] - %(message)s"
+            log_formatter = logging.Formatter(log_format)
+
+            # 将格式器添加到 处理器 控制台
+            stream_handler.setFormatter(log_formatter)
+            # 设置控制台处理器日志级别
+            stream_handler.setLevel(logging.DEBUG)
+
+            # 将格式器添加到 处理器 文件
+            file_handler.setFormatter(log_formatter)
+            # 设置文件处理器日志级别
+            file_handler.setLevel(logging.DEBUG)
+
+            # 将处理器添加到 日志器
+            cls.logger.addHandler(stream_handler)
+            cls.logger.addHandler(file_handler)
+        return cls.logger
