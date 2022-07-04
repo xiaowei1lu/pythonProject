@@ -1,0 +1,22 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/url {"url": "https://www.baidu.com"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element {"using": "css selector", "value": "[id=\"kw\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element/73637678-53a8-478f-a728-af145e1ca139/value {"text": "123", "value": ["1", "2", "3"], "id": "73637678-53a8-478f-a728-af145e1ca139"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element/73637678-53a8-478f-a728-af145e1ca139/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element {"using": "css selector", "value": "[id=\"su11\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element HTTP/1.1" 404 1026
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[33mWARNING [0m root:util_record.py:27 执行过程中发生异常
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/screenshot {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "GET /session/873b4ecece02183c97aa94d9f502ee27/screenshot HTTP/1.1" 200 46868
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/source {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "GET /session/873b4ecece02183c97aa94d9f502ee27/source HTTP/1.1" 200 499020
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27 {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 http://127.0.0.1:53990 "DELETE /session/873b4ecece02183c97aa94d9f502ee27 HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

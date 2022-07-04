@@ -1,0 +1,59 @@
+2022-07-04 10:53:21,193 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/url {"url": "https://www.baidu.com"}
+2022-07-04 10:53:21,509 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/url HTTP/1.1" 200 14
+2022-07-04 10:53:21,509 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:21,511 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2022-07-04 10:53:21,528 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element HTTP/1.1" 200 88
+2022-07-04 10:53:21,529 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:21,529 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element/73637678-53a8-478f-a728-af145e1ca139/value {"text": "123", "value": ["1", "2", "3"], "id": "73637678-53a8-478f-a728-af145e1ca139"}
+2022-07-04 10:53:21,745 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element/73637678-53a8-478f-a728-af145e1ca139/value HTTP/1.1" 200 14
+2022-07-04 10:53:21,745 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:21,746 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element {"using": "css selector", "value": "[id=\"su11\"]"}
+2022-07-04 10:53:26,810 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element HTTP/1.1" 404 1026
+2022-07-04 10:53:26,810 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:26,810 WARNING [util_record.py wrapper:27] - 执行过程中发生异常
+2022-07-04 10:53:26,810 DEBUG [remote_connection.py _request:388] - GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/screenshot {}
+2022-07-04 10:53:26,917 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "GET /session/873b4ecece02183c97aa94d9f502ee27/screenshot HTTP/1.1" 200 46868
+2022-07-04 10:53:26,918 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:26,919 DEBUG [remote_connection.py _request:388] - GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/source {}
+2022-07-04 10:53:26,952 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "GET /session/873b4ecece02183c97aa94d9f502ee27/source HTTP/1.1" 200 499020
+2022-07-04 10:53:26,954 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:27,046 DEBUG [remote_connection.py _request:388] - DELETE http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27 {}
+2022-07-04 10:53:27,085 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "DELETE /session/873b4ecece02183c97aa94d9f502ee27 HTTP/1.1" 200 14
+2022-07-04 10:53:27,086 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:29,722 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-07-04 10:53:29,723 DEBUG [connectionpool.py _new_conn:228] - Starting new HTTP connection (1): 127.0.0.1:54052
+2022-07-04 10:53:30,247 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session HTTP/1.1" 200 792
+2022-07-04 10:53:30,247 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:30,247 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f/timeouts {"implicit": 5000}
+2022-07-04 10:53:30,248 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session/eeb290a587ba438d5068ce0f48efb27f/timeouts HTTP/1.1" 200 14
+2022-07-04 10:53:30,248 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:30,248 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f/window/maximize {}
+2022-07-04 10:53:30,377 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session/eeb290a587ba438d5068ce0f48efb27f/window/maximize HTTP/1.1" 200 52
+2022-07-04 10:53:30,378 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:30,378 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f/url {"url": "https://www.baidu.com"}
+2022-07-04 10:53:30,687 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session/eeb290a587ba438d5068ce0f48efb27f/url HTTP/1.1" 200 14
+2022-07-04 10:53:30,687 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:30,691 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2022-07-04 10:53:30,824 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session/eeb290a587ba438d5068ce0f48efb27f/element HTTP/1.1" 200 88
+2022-07-04 10:53:30,825 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:30,825 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f/element/88e71adb-2e7a-435f-9c1e-56e13ed27acc/value {"text": "123", "value": ["1", "2", "3"], "id": "88e71adb-2e7a-435f-9c1e-56e13ed27acc"}
+2022-07-04 10:53:30,958 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session/eeb290a587ba438d5068ce0f48efb27f/element/88e71adb-2e7a-435f-9c1e-56e13ed27acc/value HTTP/1.1" 200 14
+2022-07-04 10:53:30,958 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:30,959 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f/element {"using": "css selector", "value": "[id=\"su11\"]"}
+2022-07-04 10:53:35,992 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "POST /session/eeb290a587ba438d5068ce0f48efb27f/element HTTP/1.1" 404 1026
+2022-07-04 10:53:35,992 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:35,992 WARNING [util_record.py wrapper:27] - 执行过程中发生异常
+2022-07-04 10:53:35,993 DEBUG [remote_connection.py _request:388] - GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/screenshot {}
+2022-07-04 10:53:35,993 DEBUG [connectionpool.py _get_conn:273] - Resetting dropped connection: 127.0.0.1
+2022-07-04 10:53:38,037 DEBUG [retry.py increment:594] - Incremented Retry for (url='/session/873b4ecece02183c97aa94d9f502ee27/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2022-07-04 10:53:38,038 WARNING [connectionpool.py urlopen:810] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD840989A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/873b4ecece02183c97aa94d9f502ee27/screenshot
+2022-07-04 10:53:38,040 DEBUG [connectionpool.py _new_conn:228] - Starting new HTTP connection (2): 127.0.0.1:53990
+2022-07-04 10:53:40,082 DEBUG [retry.py increment:594] - Incremented Retry for (url='/session/873b4ecece02183c97aa94d9f502ee27/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2022-07-04 10:53:40,084 WARNING [connectionpool.py urlopen:810] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD8414D6A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/873b4ecece02183c97aa94d9f502ee27/screenshot
+2022-07-04 10:53:40,085 DEBUG [connectionpool.py _new_conn:228] - Starting new HTTP connection (3): 127.0.0.1:53990
+2022-07-04 10:53:42,131 DEBUG [retry.py increment:594] - Incremented Retry for (url='/session/873b4ecece02183c97aa94d9f502ee27/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-07-04 10:53:42,141 WARNING [connectionpool.py urlopen:810] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD8414D970>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/873b4ecece02183c97aa94d9f502ee27/screenshot
+2022-07-04 10:53:42,141 DEBUG [connectionpool.py _new_conn:228] - Starting new HTTP connection (4): 127.0.0.1:53990
+2022-07-04 10:53:44,319 DEBUG [remote_connection.py _request:388] - DELETE http://127.0.0.1:54052/session/eeb290a587ba438d5068ce0f48efb27f {}
+2022-07-04 10:53:44,367 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:54052 "DELETE /session/eeb290a587ba438d5068ce0f48efb27f HTTP/1.1" 200 14
+2022-07-04 10:53:44,367 DEBUG [remote_connection.py _request:440] - Finished Request

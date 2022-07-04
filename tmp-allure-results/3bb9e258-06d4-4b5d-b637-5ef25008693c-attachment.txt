@@ -1,0 +1,22 @@
+2022-07-04 10:53:21,193 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/url {"url": "https://www.baidu.com"}
+2022-07-04 10:53:21,509 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/url HTTP/1.1" 200 14
+2022-07-04 10:53:21,509 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:21,511 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2022-07-04 10:53:21,528 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element HTTP/1.1" 200 88
+2022-07-04 10:53:21,529 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:21,529 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element/73637678-53a8-478f-a728-af145e1ca139/value {"text": "123", "value": ["1", "2", "3"], "id": "73637678-53a8-478f-a728-af145e1ca139"}
+2022-07-04 10:53:21,745 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element/73637678-53a8-478f-a728-af145e1ca139/value HTTP/1.1" 200 14
+2022-07-04 10:53:21,745 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:21,746 DEBUG [remote_connection.py _request:388] - POST http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/element {"using": "css selector", "value": "[id=\"su11\"]"}
+2022-07-04 10:53:26,810 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "POST /session/873b4ecece02183c97aa94d9f502ee27/element HTTP/1.1" 404 1026
+2022-07-04 10:53:26,810 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:26,810 WARNING [util_record.py wrapper:27] - 执行过程中发生异常
+2022-07-04 10:53:26,810 DEBUG [remote_connection.py _request:388] - GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/screenshot {}
+2022-07-04 10:53:26,917 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "GET /session/873b4ecece02183c97aa94d9f502ee27/screenshot HTTP/1.1" 200 46868
+2022-07-04 10:53:26,918 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:26,919 DEBUG [remote_connection.py _request:388] - GET http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27/source {}
+2022-07-04 10:53:26,952 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "GET /session/873b4ecece02183c97aa94d9f502ee27/source HTTP/1.1" 200 499020
+2022-07-04 10:53:26,954 DEBUG [remote_connection.py _request:440] - Finished Request
+2022-07-04 10:53:27,046 DEBUG [remote_connection.py _request:388] - DELETE http://127.0.0.1:53990/session/873b4ecece02183c97aa94d9f502ee27 {}
+2022-07-04 10:53:27,085 DEBUG [connectionpool.py _make_request:456] - http://127.0.0.1:53990 "DELETE /session/873b4ecece02183c97aa94d9f502ee27 HTTP/1.1" 200 14
+2022-07-04 10:53:27,086 DEBUG [remote_connection.py _request:440] - Finished Request

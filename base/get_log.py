@@ -3,11 +3,12 @@
 
 """
  @Description :
- @Time        : 2021/11/11 15:24
+ @Time        : 2022/06/01 13:55
  @Author      : xiaowei
 """
 
 import logging.handlers
+from utils.util_dir import make_dir
 
 
 class GetLog:
@@ -23,8 +24,11 @@ class GetLog:
             cls.logger.setLevel(logging.DEBUG)
             # 获取处理器 控制台
             stream_handler = logging.StreamHandler()
+
+            # 日志路径
+            log_path = make_dir("logs", "log")
             # 获取处理器 文件-以时间分隔
-            file_handler = logging.handlers.TimedRotatingFileHandler(filename="../log/log.log",
+            file_handler = logging.handlers.TimedRotatingFileHandler(filename=log_path,
                                                                      when="midnight",
                                                                      interval=1,
                                                                      backupCount=30,
@@ -47,3 +51,9 @@ class GetLog:
             cls.logger.addHandler(stream_handler)
             cls.logger.addHandler(file_handler)
         return cls.logger
+
+
+if __name__ == '__main__':
+    log = GetLog().get_logger()
+    log.info("halou")
+
